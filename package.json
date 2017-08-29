@@ -1,0 +1,22 @@
+{
+  "name": "ethereum-2fa",
+  "version": "1.0.0",
+  "description": "Two factor authentication on the blockchain",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "ethereum": "testrpc",
+    "test": "truffle test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.1",
+    "chai-as-promised": "^7.1.1",
+    "ethereumjs-testrpc": "^4.0.1",
+    "truffle": "^3.4.8",
+    "zeppelin-solidity": "^1.2.0"
+  }
+}
