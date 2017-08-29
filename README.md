@@ -1,6 +1,6 @@
 # Ethereum Two Factor Authentication
 
-Simple contract for two factor authentication via Ethereum transactions. Note this concept has security and usability flaws, and is therefore merely a demonstration of a basic smart contract and testing with truffle.
+Simple contract for two factor authentication to online services via Ethereum transactions. Note this concept has security and usability flaws, and is therefore merely a demonstration of a basic smart contract and testing with truffle.
 
 
 ## Basic Functionality
