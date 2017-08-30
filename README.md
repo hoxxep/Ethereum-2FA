@@ -8,7 +8,7 @@ Simple contract for two factor authentication to online services via Ethereum tr
 1. User logs in to example.com with username-password.
 2. example.com asks the user to send a transaction to their 2FA contract, and starts waiting for an Authenticated event. (Note: events before this login are ignored). A reasonable timeout should be set to account for fees and network congestion — after which this login is rejected if no Authenticated event is heard for this user's Ethereum address.
 3. User sends a transaction (does not send ETH, only calls the contract function and pays the gas fee) to the example.com 2FA contract.
-4. example.com sees an Authenticated event on the contract, initiated by the user's Ethereum address and provided it is within the timeout allows the login.
+4. example.com sees an Authenticated event on the contract, and provided it is within the timeout and was created by the user's Ethereum address, allows the login.
 5. User is authenticated.
 
 
