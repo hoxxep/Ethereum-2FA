@@ -1,9 +1,9 @@
 # Ethereum Two Factor Authentication
 
-Simple contract for two factor authentication to online services via Ethereum transactions. Note this concept has security and usability flaws, and is therefore merely a demonstration of a basic smart contract and testing with truffle.
+Simple contract for two factor authentication to online services via Ethereum transactions. Note **this concept has security and usability flaws**, and is therefore merely a demonstration of a basic smart contract and testing with truffle.
 
 
-## Basic Functionality
+## Basic Functionality Story
 
 1. User logs in to example.com with username-password.
 2. example.com asks the user to send a transaction to their 2FA contract, and starts waiting for an Authenticated event. (Note: events before this login are ignored). A reasonable timeout should be set to account for fees and network congestion — after which this login is rejected if no Authenticated event is heard for this user's Ethereum address.
@@ -12,7 +12,7 @@ Simple contract for two factor authentication to online services via Ethereum tr
 5. User is authenticated.
 
 
-## Issues with Blockchain 2FA
+## Critical Issues with Blockchain 2FA
 
 **Note this is not a serious suggestion**, and is merely a demonstration of a very basic smart contract. Reasons that 2FA through Ethereum contracts is an awful idea:
 
