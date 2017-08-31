@@ -23,6 +23,11 @@ Simple contract for two factor authentication to online services via Ethereum tr
 
 ## Getting Started
 
+Dependencies:
+- Node v7.6+
+- Ethereum TestRPC
+- Truffle
+
 ```bash
 # Install Truffle and the Ethereum TestRPC dev tools.
 npm install -g truffle ethereumjs-testrpc
