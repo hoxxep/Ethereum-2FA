@@ -18,5 +18,8 @@
     "ethereumjs-testrpc": "^4.0.1",
     "truffle": "^3.4.8",
     "zeppelin-solidity": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=7.6.0"
   }
 }

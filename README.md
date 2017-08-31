@@ -19,3 +19,22 @@ Simple contract for two factor authentication to online services via Ethereum tr
 - It does not add any real security. If an attacker already has your password, if they also know your public Ethereum address, they could simply listen to the blockchain for 2FA activity on your address and attempt their login around the same time (in the hope for a second login attempt in succession). 
 - Every 2FA would cost the user at least the minimum network fee, and may be subject to high fees or slow confirmations due to network congestion.
 - The usability of this system would likely be worse than a typical 2FA system such as one-time-passwords provided by 1Password, Google Authenticator, or Authy.
+
+
+## Getting Started
+
+```bash
+# Install Truffle and the Ethereum TestRPC dev tools.
+npm install -g truffle ethereumjs-testrpc
+
+# Install local dependencies
+npm install
+
+# Start the ethereum testrpc
+testrpc
+
+# In a new terminal window, run the truffle tests
+truffle test
+```
+
+&copy; Copyright 2017 by Liam Gray — Released under the ISC licence.
